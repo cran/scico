@@ -4,8 +4,7 @@
 \alias{scico}
 \title{Scientific colour map palettes}
 \usage{
-scico(n, alpha = NULL, begin = 0, end = 1, direction = 1,
-  palette = "bilbao")
+scico(n, alpha = NULL, begin = 0, end = 1, direction = 1, palette = "bilbao")
 }
 \arguments{
 \item{n}{The number of colours to generate for the palette}
@@ -46,6 +45,6 @@ scico(15, begin = 0.3, end = 0.6, palette = 'berlin')
 \references{
 \url{http://www.fabiocrameri.ch/colourmaps.php}
 
-Crameri, Fabio. (2018, May 8). \emph{Scientific colour maps (Version 3.0.1)}. Zenodo. doi:10.5281/zenodo.1243909
-Crameri, Fabio. (2018). \emph{Geodynamic diagnostics, scientific visualisation and StagLab 3.0}. Geosci. Model Dev. Discuss. doi:10.5194/gmd-2017-328
+Crameri, Fabio. (2018, May 8). \emph{Scientific colour maps (Version 3.0.1)}. Zenodo. \doi{10.5281/zenodo.1243909}
+Crameri, Fabio. (2018). \emph{Geodynamic diagnostics, scientific visualisation and StagLab 3.0}. Geosci. Model Dev. Discuss. \doi{10.5194/gmd-2017-328}
 }
