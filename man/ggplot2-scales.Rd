@@ -16,7 +16,8 @@ scale_colour_scico(
   begin = 0,
   end = 1,
   direction = 1,
-  palette = "bilbao"
+  palette = "bilbao",
+  midpoint = NA
 )
 
 scale_color_scico(
@@ -25,7 +26,8 @@ scale_color_scico(
   begin = 0,
   end = 1,
   direction = 1,
-  palette = "bilbao"
+  palette = "bilbao",
+  midpoint = NA
 )
 
 scale_fill_scico(
@@ -34,7 +36,8 @@ scale_fill_scico(
   begin = 0,
   end = 1,
   direction = 1,
-  palette = "bilbao"
+  palette = "bilbao",
+  midpoint = NA
 )
 
 scale_colour_scico_d(
@@ -86,6 +89,9 @@ Defaults to \code{0} and \code{1} respectively}
 \item{palette}{The name of the palette to sample from. See
 \code{\link[=scico_palette_names]{scico_palette_names()}} for a list of possible names}
 
+\item{midpoint}{A midpoint to center the scale on, used primarily for
+diverging and multisequential scales}
+
 \item{aesthetics}{Character string or vector of character strings listing the
 name(s) of the aesthetic(s) that this scale works with. This can be useful,
 for example, to apply colour settings to the colour and fill aesthetics at
@@ -116,7 +122,5 @@ if (require('ggplot2')) {
     geom_point(aes(color=Species), size=10) + 
     scale_colour_scico_d() 
 }
-
-
 
 }
