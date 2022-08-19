@@ -1,3 +1,7 @@
+# scico 1.3.1
+
+* general upkeep
+
 # scico 1.3.0
 
 * Added new colour palettes (@michaelgrund, #11)
