@@ -1,3 +1,7 @@
+# scico 1.4.0
+
+* Add support for categorical palettes
+
 # scico 1.3.1
 
 * general upkeep
